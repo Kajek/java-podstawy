@@ -1,13 +1,5 @@
 package com.company;
 
-import com.company.figures.Cuboid;
-import com.company.figures.Rectangle;
-import com.company.figures.Triangle;
-
-import java.util.Scanner;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
 public class Homework {
 
     public static void main(String[] args) {
@@ -322,11 +314,11 @@ public class Homework {
         //ostatni dzień powtorka ::
 //        package com.company;
 //
-//import com.company.objects.Student;
-//import com.company.figures.Triangle;
-//import com.company.figures.Rectangle;
-//import com.company.figures.Cuboid;
-//import com.company.objects.Product;
+//import com.company.practice.objects.Student;
+//import com.company.practice.figures.Triangle;
+//import com.company.practice.figures.Rectangle;
+//import com.company.practice.figures.Cuboid;
+//import com.company.practice.objects.Product;
 //
 //import java.time.LocalTime;
 //import java.util.Scanner;
