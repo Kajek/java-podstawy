@@ -1,13 +1,41 @@
 package com.company;
 
-import java.util.*;
+import com.company.javaZaawansowanaZadania.JavaIOZadania.zadanie1i2i3i4.BasicCommandBase;
+import com.company.javaZaawansowanaZadania.OOPzadania.Zadanie1.Line;
+import com.company.practice.zaawansownaProgPractice.zadanie18.Computer;
+import com.company.practice.zaawansownaProgPractice.zadanie28.MyArrayList;
+import com.company.practice.zaawansownaProgPractice.zadanie30.ReverseSave;
+import com.company.practice.zaawansownaProgPractice.zadanie31.WordCounter;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 import static java.lang.String.valueOf;
 
 public class Main {
 
-    public static void main(String arg[]) {
+    public static void main(String arg[]) throws IOException {
 
+
+//        MyArrayList<Integer> randomlist = new MyArrayList<>();
+//        randomlist.add(4);
+//        randomlist.add(3);
+//        randomlist.add(2);
+//        randomlist.add(1);
+//        randomlist.add(7);
+//        randomlist.add(9);
+//        MyArrayList myArrayList = new MyArrayList();
+//        System.out.println(randomlist.getEveryNthElement(2,3));
+//        ReverseSave reverseSave = new ReverseSave();
+//        reverseSave.saveAndReverse();
+        File file = new File("C:\\Users\\iT-Broker\\Desktop\\TODO.txt");
+        WordCounter wordCounter = new WordCounter();
+
+//        wordCounter.getMapOfWords(wordCounter.getListOfWords(file)).forEach((k,v) -> System.out.println(k + " :" + v));
+//        System.out.println(wordCounter.getListOfWords(file).size());
+//        wordCounter.exportToCSVFile(wordCounter.getMapOfWords(wordCounter.getListOfWords(file)));
 
     }
 
